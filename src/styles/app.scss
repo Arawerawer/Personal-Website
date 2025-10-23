@@ -1,0 +1,11 @@
+.app {
+  min-height: 100vh;
+  background-color: white;
+  color: red;
+  transition: all 1s;
+}
+
+.dark .app {
+  background-color: #111827;
+  color: yellow;
+}

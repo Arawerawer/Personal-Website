@@ -1,0 +1,106 @@
+.contact-section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-bottom: 100px;
+
+  .contact-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: 96px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 100px;
+      margin-top: 140px;
+    }
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+
+    @media (min-width: 1024px) {
+      row-gap: 48px;
+    }
+
+    .contact-email-name-input {
+      width: 330px;
+      height: 52px;
+      padding-left: 12px;
+      font-size: 1.125rem;
+      outline: 0;
+      color: black;
+      border: 1px solid red;
+      .dark & {
+        color: white;
+        background-color: #111827;
+        border: 1px solid yellow;
+      }
+      &::placeholder {
+        color: #4b5563;
+      }
+      .dark &::placeholder {
+        color: yellow;
+      }
+      transition: all 1s;
+      @media (min-width: 768px) {
+        width: 500px;
+      }
+    }
+
+    .contact-message-textarea {
+      width: 330px;
+      min-height: 100px;
+      max-height: 200px;
+      font-size: 1.125rem;
+      resize: vertical;
+      padding: 12px;
+      outline: 0;
+      color: black;
+      border: 1px solid red;
+      .dark & {
+        color: white;
+        background-color: #111827;
+        border: 1px solid yellow;
+      }
+      &::placeholder {
+        color: #4b5563;
+      }
+      .dark &::placeholder {
+        color: yellow;
+      }
+      transition: all 1s;
+      @media (min-width: 768px) {
+        width: 500px;
+      }
+    }
+
+    .contact-submit-button {
+      width: 330px;
+      height: 52px;
+      font-size: 1.125rem;
+      outline: 0;
+      background-color: red;
+      color: white;
+      text-transform: uppercase;
+      font-weight: 800;
+      cursor: pointer;
+      letter-spacing: 0.025em;
+      box-shadow: 0 4px 6px -1px rgb(55 65 81 / 0.2),
+        0 2px 4px -2px rgb(55 65 81 / 0.2);
+      .dark & {
+        background-color: yellow;
+        color: black;
+      }
+
+      transition: all 1s;
+      @media (min-width: 768px) {
+        width: 500px;
+      }
+    }
+  }
+}
