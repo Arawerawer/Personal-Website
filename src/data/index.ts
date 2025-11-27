@@ -36,7 +36,7 @@ export const skillCards = [
     icon: "bx bxs-file-css",
     title: "CSS",
     description:
-      "過去專案多以 Tailwind CSS 為主，後續因貴公司前端職缺對 SCSS 的需求，開始重新精進原生 CSS 與 SCSS 的語法與結構，並以此為契機，手刻完成自我介紹網站的整體樣式設計。",
+      "過去專案多以 Tailwind CSS 為主，後續因較不熟悉 SCSS 的結構，開始重新精進原生 CSS 與 SCSS 的語法與結構，並以此為契機，手刻完成自我介紹網站的整體樣式設計。",
     projectCount: 4,
     hoverPosition: {
       large: "bottom",
@@ -58,7 +58,7 @@ export const skillCards = [
     icon: "bx bxl-react",
     title: "Front-End Dev",
     description:
-      "前端是我較擅長的領域，主要使用 React 進行開發，具備單頁應用（SPA）架構與 Redux 狀態管理的實作經驗。目前的個人網站亦是以純前端 React(Typescript) 完成。",
+      "前端開發是我的專長，主要使用 React，也正在補強 Vue 的應用。具備單頁應用（SPA）架構設計與狀態管理實作經驗（Redux、Pinia）。目前個人網站完全以 React (TypeScript) 完成",
     projectCount: 4,
     hoverPosition: {
       large: "bottom",
