@@ -11,8 +11,7 @@ export const professionTexts = ["Personal", "React Scss", "Api connect"];
 export const aboutText = `這是一個我以 React(typescript) 與 純 SCSS 從零開發完成的個人網站。
 
 在開發過程中，我完全沒有使用任何現成的 CSS 框架（如 Tailwind、Bootstrap、Shadcn 等），
-而是透過 手刻 SCSS 的方式自行建立整套樣式系統，
-包含版面排版、色彩變數、RWD 響應式設計與動畫效果等，皆由我使用scss進行實作。
+而是透過 手刻 SCSS 的方式自行建立的個人網站。
 雖然這樣的做法需要更多時間與調整，但能讓我更深入理解樣式架構，
 同時確保程式結構清晰、易於維護，並與元件邏輯緊密結合。
 
@@ -58,7 +57,7 @@ export const skillCards = [
     icon: "bx bxl-react",
     title: "Front-End Dev",
     description:
-      "前端開發是我的專長，主要使用 React，也正在補強 Vue 的應用。具備單頁應用（SPA）架構設計與狀態管理實作經驗（Redux、Pinia）。目前個人網站完全以 React (TypeScript) 完成",
+      "前端開發是我的專長，主要使用 React以及Vue3。具備單頁應用（SPA）架構設計與狀態管理實作經驗（Redux、Pinia）。此網站則以 React (TypeScript) 完成",
     projectCount: 4,
     hoverPosition: {
       large: "bottom",
