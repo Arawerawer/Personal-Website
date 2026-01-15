@@ -57,7 +57,7 @@ export const skillCards = [
     icon: "bx bxl-react",
     title: "Front-End Dev",
     description:
-      "前端開發是我的專長，主要使用 React以及Vue3。具備單頁應用（SPA）架構設計與狀態管理實作經驗（Redux、Pinia）。此網站則以 React (TypeScript) 完成",
+      "我專注於前端開發實作，熟練使用 Vue3 與 React (TypeScript) 構建單頁應用（SPA）並處理狀態管理（Redux、Pinia）",
     projectCount: 4,
     hoverPosition: {
       large: "bottom",
@@ -87,10 +87,10 @@ export const skillCards = [
     },
   },
   {
-    icon: "bx bxl-github",
-    title: "Git Version Control",
+    icon: "bx bxl-figma",
+    title: "Figma",
     description:
-      "部署個人作品時，先將專案上傳至 GitHub 進行版本管理；每次修改後透過 Commit 與 Push 更新程式碼，再重新部署以維持最新版本。",
+      "我能以工程邏輯優化 UI 設計，在 Figma 操作上，我善於運用 Auto Layout 建立嚴謹的響應式組件，並透過開發者模式（Dev Mode）確保視覺設計能精準轉化為程式碼。",
     projectCount: 2,
     hoverPosition: {
       large: "top",
